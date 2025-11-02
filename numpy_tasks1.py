@@ -47,5 +47,4 @@ class TestSumProd:
         result = sum_prod(X, V)
         expected = np.full((n, 1), n * p)
         assert np.allclose(result, expected)
-
 #Запускать через pytest fromnum1_pytest.py -v
