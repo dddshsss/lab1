@@ -9,7 +9,6 @@ def sum_prod(X, V):
 
     return res
 
-
 #Тесты
 import pytest
 import numpy as np
