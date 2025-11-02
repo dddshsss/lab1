@@ -5,6 +5,7 @@ def binarize(M, threshold=0.5):
     binary_matrix = (M > threshold).astype(int)
     return binary_matrix
 
+
 #Тесты
 import pytest
 import numpy as np
